@@ -1,0 +1,141 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Playfair Display', serif; /* Fancy serif font */
+    margin: 0;
+    padding: 0;
+    background-color: #f5ebe0; /* Light beige-brown */
+    color: #3c2f2f; /* Dark brown */
+    line-height: 1.6;
+}
+
+/* Section Styles */
+.w3-section {
+    padding: 32px;
+    background-color: #d9b99b; /* Medium-light brown */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 16px 0;
+    font-family: 'Poppins', sans-serif; /* Clean sans-serif font */
+}
+
+.w3-section p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.w3-section i {
+    margin-right: 10px;
+    color: #5e4033; /* Rich dark brown */
+}
+
+/* Map Image */
+.w3-image {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+    background-color: #c6a48a; /* Warm medium brown */
+    padding: 32px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 32px 0;
+    font-family: 'Poppins', sans-serif; /* Clean sans-serif font */
+}
+
+form p {
+    margin-bottom: 16px;
+}
+
+.w3-input {
+    width: 100%;
+    border: 1px solid #a67d68; /* Muted brown */
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif; /* Match the overall style */
+    color: #3c2f2f; /* Dark brown */
+}
+
+.w3-input:focus {
+    border-color: #5e4033; /* Darker brown */
+    outline: none;
+    box-shadow: 0 0 4px rgba(94, 64, 51, 0.5);
+}
+
+.w3-button {
+    background-color: #5e4033; /* Dark brown */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif; /* Fancy font for buttons */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.w3-button:hover {
+    background-color: #8b5e3c; /* Medium brown */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #3c2f2f; /* Dark brown */
+    color: #fff;
+    text-align: center;
+    padding: 32px;
+    font-family: 'Playfair Display', serif; /* Fancy font for footer */
+}
+
+footer i {
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+footer i:hover {
+    opacity: 0.7;
+    transform: scale(1.2);
+}
+
+footer p {
+    font-size: 1rem;
+    margin-top: 16px;
+}
+
+footer a {
+    color: #8b5e3c; /* Medium brown */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #5e4033; /* Darker brown */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .w3-section {
+        padding: 16px;
+    }
+
+    form {
+        padding: 16px;
+    }
+
+    .w3-input {
+        font-size: 0.9rem;
+    }
+
+    .w3-button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
